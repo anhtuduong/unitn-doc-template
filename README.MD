@@ -1,4 +1,4 @@
-# LaTeX Report Template
+# LaTeX Document Template
 A simple LaTeX template for creating document.
 
 <img height=280 src="figures/example.png">
@@ -17,7 +17,7 @@ Edit `config.tex` to set the title, author, and other details of your document.
 Open the `Makefile` and change `DOC_NAME` and `VERSION` to define the output filename.
 
 ```makefile
-DOC_NAME = Report_Title
+DOC_NAME = Document_Title
 VERSION  = v1
 ```
 
