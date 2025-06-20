@@ -1,6 +1,8 @@
 # LaTeX Report Template
 A simple LaTeX template for creating document.
 
+![example](figures/example.png)
+
 ## How to Use
 
 #### 1. Configure Document Info:
