@@ -1,0 +1,49 @@
+% main.tex
+\documentclass[11pt, a4paper]{report}
+
+% --- PACKAGES ---
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{lipsum} % For placeholder text
+% \usepackage[margin=1in, headheight=13.6pt]{geometry}
+\usepackage{titling}
+\usepackage[hidelinks]{hyperref}
+
+% --- DOCUMENT CONFIGURATION ---
+\input{config.tex}
+
+% --- DOCUMENT INFO ---
+\title{\doctitle}
+\author{\docauthor}
+\date{\today}
+
+% --- THE DOCUMENT ---
+\begin{document}
+
+% 1. Include the Cover Page
+\input{style/cover.tex}
+
+% 2. Add Table of Contents
+\pagenumbering{roman}
+\tableofcontents
+\newpage
+
+% 3. Start the main content
+\pagenumbering{arabic}
+
+\input{sections/01-introduction.tex}
+\input{sections/02-theory.tex}
+\input{sections/03-experiment.tex}
+\input{sections/04-result.tex}
+\input{sections/05-conclusion.tex}
+
+% 4. Add the Bibliography
+% \newpage
+% \bibliographystyle{plain}
+% \nocite{*} % Turn citing on/off
+% \bibliography{references}
+
+\end{document}
