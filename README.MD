@@ -1,7 +1,7 @@
 # LaTeX Report Template
 A simple LaTeX template for creating document.
 
-![example](figures/example.png)
+<img height=280 src="figures/example.png">
 
 ## How to Use
 
